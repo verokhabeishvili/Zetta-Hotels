@@ -1,0 +1,12 @@
+
+
+/*header*/
+.background-image { background-image: url('../images/cover.svg');
+                    height: 324px;
+                    width: 100%;
+                    background-repeat: no-repeat;
+                    position: relative; }
+
+.navigation-flex {display: flex;}
+
+.nav-ul {display: flex;}
