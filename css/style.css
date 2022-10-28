@@ -1,12 +1,54 @@
 
 
 /*header*/
-.background-image { background-image: url('../images/cover.svg');
+
+header {background-color: black;}
+
+.background-image { background-image: url('../images/cover.png');
                     height: 324px;
-                    width: 100%;
+                    max-width: 1366px;
                     background-repeat: no-repeat;
-                    position: relative; }
+                    opacity: 0.6; }
 
-.navigation-flex {display: flex;}
+.navigation-flex {display: flex;
+                align-content: center;
+                justify-content: space-between;
+                width: 1083px;
+                padding-top: 34px;
+                padding-left: 139px; }
 
-.nav-ul {display: flex;}
+.Logo { width: 88px;
+        height: 13px;
+        font-size: 14px;
+        font-weight: bolder;
+        color: white;
+        opacity: 1;}
+
+.nav-ul {display: flex;
+        width: 600px;
+        justify-content: space-between;}
+
+.nav-li  { color: white;
+        font-size: 12px;
+        font-family: poppins;}
+
+.Aboutus { max-width: 190px;
+    width: 100%;
+    margin-top: 145px;
+    margin-left: 139px;}
+
+.Aboutus h2 { color: white;
+    font-size: 42px;}
+
+.Aboutus-flex {display: flex;
+                margin-top: 18px;
+                font-family:'Poppins', sans-serif;
+                font-size: 14px}
+
+.divider {     max-width: 1px;
+    width: 100%;
+    height: 16px;
+    background-color: white;
+    margin: 0px 16px;}
+
+.Aboutus-flex p {color: white;}
