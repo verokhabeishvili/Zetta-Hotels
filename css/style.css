@@ -3,14 +3,15 @@ body { font-family: 'Poppins'; ;}
 /*header*/
 
 
-
 .background-image { background-image: url('../images/cover.png');
-                    height: 324px;
-                    max-width: 1366px;
-                    background-repeat: no-repeat;
-                    position:relative;
-                    background-size: cover;
-                    display: flex;}
+    height: 324px;
+    max-width: 1366px;
+    width: 100%;
+    background-repeat: no-repeat;
+    position:relative;
+    background-size: cover;
+    display: flex;}
+
 
 
 .background-image::before {
@@ -25,10 +26,14 @@ body { font-family: 'Poppins'; ;}
 .navigation-flex {display: flex;
                 align-content: center;
                 justify-content: space-between;
-                width: 1083px;
+                width: 80%;
                 padding-top: 34px;
                 padding-left: 139px;
                 position:absolute;}
+
+.burger {display: none;
+        color: white;
+        size: 20px;}
 
 .Logo { width: 88px;
         height: 13px;
@@ -274,7 +279,7 @@ body { font-family: 'Poppins'; ;}
 
 .footer-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .footer-block01 {

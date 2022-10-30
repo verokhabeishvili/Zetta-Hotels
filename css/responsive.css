@@ -1,0 +1,9 @@
+/*responsive header*/
+
+ @media (max-width: 768px) {
+    .navigation{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    } }
