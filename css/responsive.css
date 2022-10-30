@@ -1,10 +1,19 @@
 
+@media (max-width: 1300px) { 
+    .logo {margin-right: 40px;}
 
-@media (max-width: 768px) {
+    .section1 {  flex-direction: column;} 
+
+
+}}
+
+
+@media (max-width: 900px) {
     .nav-ul{
         display: none;
     }
     .burger{
         display: block;
     } }
+
 
