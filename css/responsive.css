@@ -1,9 +1,9 @@
 /*responsive header*/
 
  @media (max-width: 768px) {
-    .navigation{
+    .nav-ul{
         display: none;
     }
-    .menu-icon{
+    .burger{
         display: block;
     } }
