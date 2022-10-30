@@ -5,7 +5,6 @@ body { font-family: 'Poppins'; ;}
 
 .background-image { background-image: url('../images/cover.png');
     height: 324px;
-    max-width: 1366px;
     width: 100%;
     background-repeat: no-repeat;
     position:relative;
@@ -23,13 +22,13 @@ body { font-family: 'Poppins'; ;}
                              opacity: 60%;}
                         
 
-.navigation-flex {display: flex;
-                align-content: center;
-                justify-content: space-between;
-                width: 80%;
-                padding-top: 34px;
-                padding-left: 139px;
-                position:absolute;}
+.navigation-flex {  display: flex;
+                    align-content: center;
+                    justify-content: space-between;
+                    width: 80%;
+                    padding-top: 34px;
+                    padding-left: 139px;
+                    position:absolute;}
 
 .burger {display: none;
         color: white;
@@ -43,9 +42,9 @@ body { font-family: 'Poppins'; ;}
         opacity: 1;
         margin-right: 437px;}
 
-.nav-ul {display: flex;
-        width: 600px;
-        justify-content: space-between;}
+.nav-ul {   display: flex;
+            width: 600px;
+            justify-content: space-between;}
 
 .nav-li  { color: white;
         font-size: 12px;}
